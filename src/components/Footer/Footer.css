@@ -4,8 +4,9 @@
   padding: 0.5rem;
   color: #fff;
   text-align: center;
-  vertical-align: bottom;
+  vertical-align: baseline;
   margin-top: 100px;
+  height: 5.5rem;
 }
 .footer a {
   color: red;

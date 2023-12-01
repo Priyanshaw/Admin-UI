@@ -1,11 +1,13 @@
-import React from 'react'
-
-export default function DeleteSelectedButton() {
+import React from "react";
+import "./DeleteSelectedButton.css";
+export default function DeleteSelectedButton({ handleDeleteAllSelected }) {
   return (
     <div>
-        <div className="table-footer">
-        <button>Delete Selected</button>
+      <div>
+        <button className="delete-button" onClick={handleDeleteAllSelected}>
+          Delete Selected
+        </button>
       </div>
     </div>
-  )
+  );
 }

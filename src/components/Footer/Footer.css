@@ -1,21 +1,18 @@
-footer {
-    background: #f1f1f1;
-    width: 100%;
-    padding: 0.5rem;
-    color: #999;
-    position: absolute;
-    bottom: 0;
-    width: 100%;  
-    text-align: center;
-    vertical-align: bottom;
-  }
-  footer a {
-    color: #999 ; 
-    text-decoration: none !important;
-    transition: 1s ease !important;
-    
-  }
-  footer a:hover {
-    transform: scale(1.2) !important;
-    color: red !important;
-  }
+.footer {
+  background-color: #3d3d3d;
+  width: 100%;
+  padding: 0.5rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: bottom;
+  margin-top: 100px;
+}
+.footer a {
+  color: red;
+  text-decoration: none;
+  transition: 1s ease;
+}
+.footer a:hover {
+  transform: scale(1.2);
+  color: red;
+}

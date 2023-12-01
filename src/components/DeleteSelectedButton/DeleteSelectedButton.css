@@ -1,0 +1,11 @@
+.delete-button {
+  align-self: flex-start;
+  background-color: #ef5350;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  font-weight: bold;
+}
